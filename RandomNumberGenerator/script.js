@@ -3,7 +3,7 @@ const btn = document.querySelector('.generate')
 
 const generateNumber = () => {
     // Generate a number between 1 and 10
-    const randomNumber = Math.floor(Math.random() * 10 + 1);
+    const randomNumber = Math.floor(Math.random() * 1000 + 1);
     number.innerHTML = randomNumber;
 }
 
